@@ -29,10 +29,10 @@ var width=1;
 function rysujChoinke(n) {
 var star=''
 	
-	for (i=0 ; i <=n  ; i++)
+	for (i=1 ; i <=n  ; i++)
 	{	
-		
-		for (j=1 ; j<=i  ; j+=2)
+		star='';
+		for (j=1 ; j<=i*2-1  ; j++)
 		{
 			star +='*';
 		}
@@ -44,5 +44,6 @@ var star=''
 
 
 rysujChoinke(5);
+
 
 
